@@ -9,7 +9,7 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://github.com',
-  baseUrl: '/alexshin/',
+  baseUrl: '/alexshin95.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'alexshin95', // Usually your GitHub org/user name.
-  projectName: 'alexshin', // Usually your repo name.
+  projectName: 'alexshin95.github.io', // Usually your repo name.
   deploymentBranch: "gh-pages",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
