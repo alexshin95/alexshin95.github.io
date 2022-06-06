@@ -6,19 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: "Alex's Personal Site",
+  tagline: "Leetcode Notes, SRE/SWE Materials, and Miscellaneous Stuff",
   url: 'https://alexshin95.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cryptobiote.ico',
   trailingSlash: false,
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'alexshin95', // Usually your GitHub org/user name.
-  projectName: 'alexshin95.github.io', // Usually your repo name.
+  organizationName: 'alexshin95', 
+  projectName: 'alexshin95.github.io', 
   deploymentBranch: "gh-pages",
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -58,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: "Alex Shin",
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -70,9 +67,15 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+            type: 'doc',
+            docId: 'leetcode-notes/leetcode-intro',
+            position: 'left',
+            label: 'Leetcode',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/alexshin95/alexshin95.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,22 +91,18 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'Leetcode',
+                to: '/docs/leetcode-notes/leetcode-intro',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Socials',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/alexshin615/',
               },
             ],
           },
@@ -111,12 +110,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'About',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/alexshin95/alexshin95.github.io',
               },
             ],
           },
