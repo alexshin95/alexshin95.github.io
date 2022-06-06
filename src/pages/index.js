@@ -20,8 +20,13 @@ function HomepageHeader() {
             to="/docs/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link>
+          
         </div>
+        {/* <div id="container">
+          <img src="img/cryptobiote.PNG" alt="" style="border-radius: 50%;"/>
+        </div> */}
       </div>
+
     </header>
   );
 }

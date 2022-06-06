@@ -69,7 +69,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'leetcode-notes/leetcode-intro',
+            docId: 'leetcode/leetcode-intro',
             position: 'left',
             label: 'Leetcode',
           },
@@ -93,7 +93,7 @@ const config = {
               },
               {
                 label: 'Leetcode',
-                to: '/docs/leetcode-notes/leetcode-intro',
+                to: '/docs/leetcode/leetcode-intro',
               },
             ],
           },
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Alex Shin's Website ${new Date().getFullYear()}, Built with Docusaurus!`,
       },
       prism: {
         theme: lightCodeTheme,
