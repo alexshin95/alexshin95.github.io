@@ -21,18 +21,18 @@ Some staples in the sliding window problem will have:
 
 Example use of a dictionary in sliding window problem: [Longest Substring with Distinct Characters](https://www.educative.io/courses/grokking-the-coding-interview/YMzBx1gE5EO).
 
-<p>Problem Statement<br>
-Given a string, find the length of the longest substring, which has all distinct characters.</p>
+Problem Statement
+Given a string, find the length of the longest substring, which has all distinct characters.  
 
-<p>Example 1:<br>
-Input: String="aabccbb"<br>
-Output: 3<br>
-Explanation: The longest substring with distinct characters is "abc".</p>
+Example 1:  
+Input: String="aabccbb"  
+Output: 3  
+Explanation: The longest substring with distinct characters is "abc".  
 
-<p>Example 2:<br>
-Input: String="abbbb"<br>
-Output: 2<br>
-Explanation: The longest substring with distinct characters is "ab".</p>
+Example 2:  
+Input: String="abbbb"  
+Output: 2  
+Explanation: The longest substring with distinct characters is "ab".
 ```python
 def non_repeat_substring(str):
   d = {}
