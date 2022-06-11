@@ -23,7 +23,7 @@ Example use of a dictionary in sliding window problem: [Longest Substring with D
 
 Problem Statement
 Given a string, find the length of the longest substring, which has all distinct characters.  
-
+```
 Example 1:  
 Input: String="aabccbb"  
 Output: 3  
@@ -33,6 +33,7 @@ Example 2:
 Input: String="abbbb"  
 Output: 2  
 Explanation: The longest substring with distinct characters is "ab".
+```
 ```python
 def non_repeat_substring(str):
   d = {}
