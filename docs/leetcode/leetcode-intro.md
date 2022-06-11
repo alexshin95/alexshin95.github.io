@@ -1,6 +1,7 @@
 ---
 id: leetcode-intro
 title: Leetcode Intro
+sidebar_position: 1
 ---
 
 # Container with Most Water
