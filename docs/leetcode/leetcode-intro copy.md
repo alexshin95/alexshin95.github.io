@@ -4,14 +4,20 @@ title: Sliding Window
 sidebar_position: 2
 ---
 
+# Sliding Window
+
 Sliding window problems will boil down to having a start and end pointer that will both be incrementing based on the constraint given by the problem.
+
+## Constants
 
 Some staples in the sliding window problem will have:
 
-max_sum or min_sum - *This keeps track of the maximum or minimum len of the subarray*
-start - *Starting pointer, usually the pointer that will be incremented once the end has met some sort of constraint*
-end - *Ending pointer, usually the pointer that is being incremented in the for loop*
-dictionary - *More difficult sliding window problems will require some sort of tracking of array values*
+- max_sum or min_sum - *This keeps track of the maximum or minimum len of the subarray*
+- start - *Starting pointer, usually the pointer that will be incremented once the end has met some sort of constraint*
+- end - *Ending pointer, usually the pointer that is being incremented in the for loop*
+- dictionary - *More difficult sliding window problems will require some sort of tracking of array values*
+
+## Example problems
 
 Example use of a dictionary in sliding window problem: [Longest Substring with Distinct Characters] (https://www.educative.io/courses/grokking-the-coding-interview/YMzBx1gE5EO).
 
