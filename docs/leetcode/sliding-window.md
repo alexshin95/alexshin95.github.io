@@ -6,11 +6,11 @@ sidebar_position: 2
 
 # Sliding Window
 
-Sliding window problems will boil down to having a start and end pointer that will both be incrementing based on the constraint given by the problem.
+Sliding window problems will boil down to having start and end pointers that will both increment based on the constraint given by the problem.
 
 ## Constants
 
-Some staples in the sliding window problem will have:
+Constants in a sliding window problem:
 
 - max_sum or min_sum - *This keeps track of the maximum or minimum len of the subarray*
 - start - *Starting pointer, usually the pointer that will be incremented once the end has met some sort of constraint*
@@ -54,7 +54,6 @@ def smallest_subarray_sum(s, arr):
     
   
   return min_len
-
 ```
 
 ### [Longest Substring with maximum K Distinct Characters (Medium)](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)
