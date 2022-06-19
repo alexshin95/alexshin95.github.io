@@ -10,5 +10,9 @@ Two pointer problems will always have two pointers where both can be incrementin
 
 ## Constants
 
+- start
+- end
+- while loop with condition that increments or decrements start/end
+
 ## Example Problems 
 
